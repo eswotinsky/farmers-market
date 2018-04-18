@@ -1,8 +1,13 @@
 import React from 'react';
+import { Switch, Route } from 'react-router-dom';
 
 function App(){
   return (
-    <h1>React project works!</h1>
+    <div>
+      <h1>React project works!</h1>
+      <Switch>
+      </Switch>
+    </div>
   );
 }
 
