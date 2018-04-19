@@ -1,10 +1,11 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
+import Header from './Header';
 
 function App(){
   return (
     <div>
-      <h1>React project works!</h1>
+      <Header/>
       <Switch>
       </Switch>
     </div>
