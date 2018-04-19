@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import App from './components/App';
 import { AppContainer } from 'react-hot-loader';
 import { HashRouter } from 'react-router-dom';
+import WebFont from 'webfontloader';
 
 const render = (Component) => {
   ReactDOM.render(
@@ -14,6 +15,13 @@ const render = (Component) => {
     document.getElementById('react-app-root')
   );
 };
+
+//Google font imports
+WebFont.load({
+  google: {
+    families: ['Gamja Flower', 'cursive']
+  }
+})
 
 render(App);
 

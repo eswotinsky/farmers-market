@@ -2,9 +2,9 @@ import React from 'react';
 
 function Header(){
   return (
-    <div>
+    <div className="header">
       <style jsx>{`
-          div {
+          div.header {
             background-color:goldenrod;
             text-align:center;
             font-family:cursive;
